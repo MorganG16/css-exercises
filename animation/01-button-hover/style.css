@@ -9,36 +9,50 @@
 }
 
 #transition-button {
-  border-radius: 8px;
+  border-radius: 500px;
   border: none;
   background-color: #2563eb;
   color: white;
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom:50px;
   transition: transform 0.5s ease-in-out; 
   background-color: #253feb; /*Change background color on hover */
 }
    
 #transition-button:hover {
-  transform: scale(2); /*Slightly enlarge the button */
+  transform: scale(2.5); /*Slightly enlarge the button */
 }
 /*Test button on bottom of page*/
 
 #test-button {
-border-radius: 8px;
+border-radius: 500px;
 border: none;
-background-color:#253feb;
+background-color:#eb2539;
 color: white;
 font-size: 18px;
 padding: 16px 40px;
 text-align: center;
-margin-bottom: 20px;
+margin-bottom: 50px;
 }
 #test-button:hover {
-  transform: scale(1.2);
+  transform: scale(1.6);
   transition: transform 0.5s ease-in-out;
 }
 
+#final-button {
+  border-radius: 500px;
+  border: none;
+  background-color:darkgreen;
+  color: white;
+  font-size: 18px;
+  padding: 16px 40px;
+  text-align:center;
+  margin-bottom: 50px;
+}
+#final-button:hover {
+transform:scale(1.2);
+transition: transform 0.5s ease-in-out;
 
+}
