@@ -17,3 +17,7 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+button:hover {
+  background-color: #2590eb; /*Change background color on hover */
+  transform: scale(1.1); /*Slightly enlarge the button */
+}
