@@ -10,3 +10,5 @@ function toggleModal() {
 
 openButton.addEventListener('click', toggleModal);
 closeButton.addEventListener('click', toggleModal);
+
+// Personal practice

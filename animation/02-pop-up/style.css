@@ -69,4 +69,76 @@ button {
 .popup-modal.show {
   transform: translate(-50%, -50%);
 }
+/* Personal practice */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.button-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 20px;
+  color: #ffffff;
+  background-color: #1868b3;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.popup-modal2 {
+  padding: 32px 64px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+
+  
+  pointer-events: none;
+  opacity: 1%;
+  transition: transform 1s ease, opacity 0.3s ease;
+  transform: translate(-50%, -200%);
+  text-align: center;
+}
+
+.popup-modal2 p {
+  margin-bottom: 24px;
+}
+
+.backdrop {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  background: #000000;
+  opacity: 0%;
+}
+
+.popup-modal2.show {
+  opacity: 100%;
+  pointer-events: all;
+}
+
+.backdrop.show {
+  opacity: 30%;
+}
+
+/* Forgot to mention this originally */
+.popup-modal.show {
+  transform: translate(-50%, -50%);
+}
 
