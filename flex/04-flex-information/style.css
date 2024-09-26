@@ -26,7 +26,7 @@ img {
   justify-content: center;
   background: #eee;
 }
-/* solution */
+/* My solution 
 .barberry-img{
   position: relative;
   top: 10px;
@@ -82,4 +82,23 @@ img {
   left: 1050px;
   width: 200px;
   word-wrap: break-word;
+}
+*/
+/* SOLUTION */
+
+body {
+  text-align: center;
+}
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  
+}
+.info {
+  max width: 200px;
 }
