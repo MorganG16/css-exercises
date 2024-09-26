@@ -9,11 +9,13 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  /* 
   display: flex;
   justify-content:center;
   align-items:center;
-  margin-top:-10px;
-}
+  margin-top:-10px;*/
+} 
+  
 
 ul {
   /* this removes the dots on the list items*/
@@ -27,7 +29,7 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
-
+/*  
 .left-links ul,
 .right-links ul {
   display:flex;
@@ -39,8 +41,22 @@ a {
 
 .right-links li {
   margin: 0 50px;
+  
 }
 .left-links li {
   margin: 0 50px;
 }
-  
+  */
+  .header {
+    padding:8px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+
+  }
+  ul {
+    display:flex;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+  }
