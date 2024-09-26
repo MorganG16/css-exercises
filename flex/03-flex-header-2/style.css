@@ -46,6 +46,8 @@ a {
 
 ul {
   list-style-type: none;
+  flex:1;
+  
 }
 
 .header {
@@ -56,6 +58,9 @@ ul {
 }
 
 li {
-  display: inline-block;
-  margin-right: 8px;
+  display:inline-block;
+  margin-right: 20px;
+  
+ 
 }
+
