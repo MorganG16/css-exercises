@@ -30,7 +30,28 @@ ul.dropdown-menu li:hover {
 .visible {
   display: block;
 }
-/*  
+/* Solution */
+.visible {
+  animation: expand 400ms ease-in-out;
+  transform-origin: top;
+}
+
+@keyframes expand {
+  0% {
+    transform: scaleY(0);
+  }
+
+  70% {
+    transform: scaleY(1.1);
+  }
+  
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+
+/*  Failed first attempt 
 .dropdown-menu {
   transition: transform 0.3s ease-in-out, opacity 0.4s ease;
   transform: translate(-50%, -10%);
@@ -39,3 +60,4 @@ ul.dropdown-menu li:hover {
   transform: translate(-50%, -50%);
 }
 */
+
