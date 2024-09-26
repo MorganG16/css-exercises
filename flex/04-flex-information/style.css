@@ -26,4 +26,60 @@ img {
   justify-content: center;
   background: #eee;
 }
+/* solution */
+.barberry-img{
+  position: relative;
+  top: 10px;
+  left:50px;
+}
 
+.barberry-text {
+  position: relative;
+  top: 30px;
+  left:10px;
+  width: 200px;
+  word-wrap:break-word;
+}
+
+.chilli-img {
+  position: relative;
+  top: -150px;
+  left: 380px;
+}
+
+.chilli-text {
+  position: relative;
+  top: -130px;
+  left: 350px;
+  width: 200px;
+  word-wrap: break-word;
+
+}
+
+.pepper-img {
+  position: relative;
+  top: -308px;
+  left: 730px;
+}
+
+.pepper-text {
+  position: relative;
+  top: -290px;
+  left: 700px;
+  width: 200px;
+  word-wrap: break-word;
+}
+
+.saffron-img {
+  position: relative;
+  top: -450px;
+  left: 1080px;
+}
+
+.saffron-text {
+  position: relative;
+  top: -432px;
+  left: 1050px;
+  width: 200px;
+  word-wrap: break-word;
+}
